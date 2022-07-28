@@ -1,9 +1,6 @@
-from typing import Optional
-
-
-def recurring_fib_num(num: int) -> Optional[int]:
+def recurring_fib_num(num: int) -> int:
     if num < 0:
-        return None
+        raise ValueError("Fibonacci has to be equal or above zero.")
     elif num <= 1:
         return num
     else:
