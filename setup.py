@@ -1,11 +1,14 @@
 from setuptools import find_packages, setup
 
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
 setup(
     name="baraldi_fib_py",
     version="0.0.1",
     author="Enzo Baraldi",
     description="Calculates a Fibonacci number",
-    long_description="A basic library that calculates Fibonacci numbers",
+    long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Enzo1603/baraldi-fib-py.git",
     install_requires=[],
