@@ -13,6 +13,7 @@ setup(
     url="https://github.com/Enzo1603/baraldi-fib-py.git",
     install_requires=[],
     packages=find_packages(exclude=("tests",)),
+    package_dir={"":"src"},
     classifiers=[
         "Development Status :: 4 - Beta",
         "Programming Language :: Python :: 3",
