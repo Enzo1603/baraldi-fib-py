@@ -12,8 +12,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       - name: run tests
-        run: |
-          export PYTHONPATH="./baraldi_fib_py"
-          python -m unittest discover
+        run: python -m unittest discover
       - name: run type checking
         run: mypy baraldi_fib_py
