@@ -14,6 +14,6 @@ jobs:
       - name: run tests
         run: |
           export PYTHONPATH="./baraldi_fib_py"
-          python -m unittest discover ./tests
+          python -m unittest discover
       - name: run type checking
         run: mypy baraldi_fib_py
