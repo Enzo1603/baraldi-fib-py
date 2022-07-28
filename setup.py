@@ -1,7 +1,7 @@
 import pathlib
 from setuptools import find_packages, setup
 
-with open(str(pathlib.Path(__file__).parent.absolute() + "/baraldi_fib_py/version.py"), "r", encoding="utf-8") as fh:
+with open(str(pathlib.Path(__file__).parent.absolute()) + "/baraldi_fib_py/version.py", "r", encoding="utf-8") as fh:
     version = fh.read().split("=")[1].replace("'", "")
 
 with open("README.md", "r", encoding="utf-8") as fh:
