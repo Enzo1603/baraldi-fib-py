@@ -1,4 +1,3 @@
-from tkinter import N
 from unittest import main, TestCase
 
 from baraldi_fib_py.fib_calcs.fib_number import recurring_fib_num
